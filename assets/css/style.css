@@ -1,0 +1,356 @@
+/* RESET CSS */
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lato", sans-serif;
+  scroll-behavior: smooth;
+  max-width: 100%;
+}
+
+.main {
+
+}
+.text-white {
+  color: #fff !important;
+}
+
+.block-inline {
+  display: inline-block;
+}
+
+.clear {
+  clear: both;
+}
+
+.p32-up-down {
+  padding: 32px 0;
+}
+
+.m15-up-down {
+  margin: 15px 0;
+}
+.text-center {
+  text-align: center;
+}
+
+.row {
+  overflow: auto;
+}
+
+.col {
+  float:left;
+}
+
+.col2 {
+  width: 50%;
+}
+
+.col3 {
+  width: calc(100% /3);
+}
+
+.col1 {
+  width: 100%;
+}
+
+#main {
+
+}
+
+.container-content {
+  width: 800px;
+  max-width:100%;
+  padding: 64px 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* HEADER */
+#header {
+  background-color: #000;
+  height: 46px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.nav {
+  display: inline-block;
+}
+
+.nav li{
+  position: relative;
+}
+
+.nav > li > a,
+.nav > i {
+  line-height: 46px;
+  padding: 0 24px;
+}
+
+.nav a {
+  text-decoration: none;
+  display: block;
+}
+
+.nav li i {
+  font-size: 12px;
+}
+
+.nav .subnav {
+  position: absolute;
+  background-color: #fff;
+  list-style-type: none;
+  display: none;
+  top: 100%;
+
+}
+
+.nav li:hover .subnav {
+  display: block;
+}
+
+.nav .subnav a {
+  text-decoration: none;
+  color: #000;
+  line-height: 38px;
+  padding-left: 12px;
+  padding-right: 60px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#header .menu-icon {
+  float: right;
+  line-height: 46px;
+  padding: 0px 24px;
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#header .menu-icon:hover {
+  background-color: #ccc;
+  color: #000 !important;
+}
+
+#header .search-btn {
+  float: right;
+  line-height: 46px;
+  padding: 0px 24px;
+}
+
+#header .search-btn:hover {
+  background-color: #f44336;
+  cursor: pointer;
+}
+
+.nav .subnav li:hover a,
+.nav .nav > li:hover > a {
+  background-color: #ccc;
+  color: #000 !important;
+}
+/* SLIDER */
+#slider {
+  background: url("../img/slider/slider1.jpg") top center / cover no-repeat;
+  padding-top: 50%;
+  margin-top:46px;
+}
+
+#slider .text-content {
+  text-align: center;
+  text-shadow: 0 0 1px #000;
+}
+
+#slider .text-heading {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+#slider .text-description {
+  font-family: "Lato", sans-serif;
+}
+
+/* CONTENT */
+#content {
+
+}
+/* ABOUT section */
+.content-heading {
+  font-size: 30px;
+  margin: 10px 0;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.content-subheading {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin: 15px 0;
+}
+
+.team-description {
+  text-align: justify;
+  line-height: 1.4;
+}
+
+.team-member-list {
+  text-align: center;
+}
+
+.team-member-list img {
+  width: 154px;
+  border-radius: 4px;
+}
+
+.tour-section {
+  background-color: #000;
+}
+
+.tour-date{
+  background-color: #fff;
+
+}
+
+.tour-date {
+  list-style: none;
+}
+
+.tour-date li {
+  border : 1px solid #ccc;
+  padding: 8px 16px;
+  color: #757575;
+  line-height: 22px;
+}
+
+.tour-section .ticket-sold-out {
+  background-color: #F44346;
+  margin: 0 16px;
+  padding: 4px 8px;
+}
+
+.tour-section .ticket-remain {
+  float:right;
+  background-color: #000;
+  margin: 0 16px;
+  border-radius: 50%;
+  padding: 0px 8px;
+}
+
+.tour-place-list {
+  padding: 32px 0px;
+  margin: 0 -8px;
+}
+
+.tour-place {
+  background-color: #000;
+  padding: 0 8px;
+}
+
+.tour-place img{
+  display: block;
+  width: 100%;
+}
+
+.tour-place img:hover {
+  opacity: 0.6;
+}
+
+.tour-description p {
+  margin: 15px 0;
+}
+.tour-description {
+  padding:16px;
+  background-color: #fff;
+}
+
+.tour-place .tour-place-time {
+  font-weight: lighter;
+}
+
+.tour-place .buy-ticket-btn{
+  background-color: #000;
+  text-decoration: none;
+  line-height: 38px;
+  padding: 8px;
+}
+
+.tour-place .buy-ticket-btn:hover{
+  background-color: #757575;
+  color: #000 !important;
+}
+
+.contact-item-container {
+  padding: 32px 0;
+}
+
+
+.contact-info p i {
+  width: 30px;
+}
+
+.contact-info p{
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 4px 0;
+}
+
+.contact-form input{
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.contact-form .first-row{
+  padding: 8px;
+}
+
+.contact-form .second-row {
+  padding: 8px;
+}
+
+.contact-form .send-btn{
+  text-decoration: none;
+  background-color: #000;
+  padding: 8px 16px;
+  float: right;
+  margin-right: 8px;
+}
+
+.map-section img {
+  width: 100%;
+}
+/* FOOTER */
+#footer{
+  text-align: center;
+  color:#757575;
+}
+
+#footer .social-list i{
+  font-size: 25px;
+  width: 32px;
+  color: #757575;
+}
+
+#footer .social-list a:hover {
+  opacity: 0.6;
+}
+
+
+#footer .copy-right p{
+  text-align: center;
+  margin: 25px 0;
+}
+
+.copy-right a{
+  text-decoration: none;
+  color: #757575;
+}
+

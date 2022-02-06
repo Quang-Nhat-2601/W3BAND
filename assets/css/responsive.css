@@ -1,0 +1,99 @@
+@media (max-width: 63.9375em){
+    #content .btn{
+        display: block;
+        text-align: center;
+        width: 100%;
+        line-height: 32px;
+    }
+
+    #content .contact-form input {
+        line-height: 26px;
+    }
+      
+}
+
+/* IPAD */
+@media (min-width: 64em) {
+    
+}
+
+/* TABLET */
+@media (max-width: 63.9375em) and (min-width: 46.25em) {
+
+}
+
+/* PHONE */
+@media (max-width:46.1875em) {
+    #header {
+        overflow: hidden;
+    }
+    
+    #header .nav {
+        width: 100%;
+    }
+
+    #header .nav li{
+        background-color: #000;
+    }
+
+    #header .nav li{
+        display: block;
+    }
+
+    #header .nav > li:first-child{
+        display: inline-block !important;
+    }
+
+    #header .nav .subnav {
+        position: initial;
+    }
+
+    #header .nav .subnav li{
+        background-color: #757575;
+    }
+
+    #header .nav .subnav a {
+        color:#fff;
+        padding: 2px 38px;
+    }
+    
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .menu-icon {
+        display: inline-block;
+    }
+
+
+    #content .team-member-list img {
+        width: 230px;
+        margin-bottom: 16px;
+    }
+
+    #content .tour-place {
+        margin-bottom: 16px;
+    }
+
+    #content .contact-info p {
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 8px 0;
+    }
+
+    .mobile-col {
+        width: 100%;
+      }
+      
+    #footer .social-list i{
+        font-size: 35px;
+    }
+
+    #footer .social-list a {
+        padding: 0 8px;
+    }
+
+    #footer .copy-right a{
+        padding: 12px 0;
+    }
+} 
